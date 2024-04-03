@@ -1,0 +1,109 @@
+*{
+
+    border:0px;
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+
+    height:100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+}
+.container aside{
+height:100vh;
+width:20%;;
+background-color: black;
+
+    
+}
+.container aside p{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: solid;
+    background-color: aquamarine;
+    
+    
+}
+.container aside ul li{
+    height:65px;
+    line-height: 65px;
+    border-bottom:  dotted 2px white ;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+   
+}
+
+
+.container article{
+
+
+    height: 100vh;
+    width:80vw;
+    background-color: azure;
+}
+.container article .top{
+
+    width:100%;
+    height: 6vh;
+    background-color: rgb(173, 221, 221);
+}
+.container article .top input, button{
+
+height: 30px;
+text-align: center;
+justify-content: space-between;
+margin:0px 80px;
+
+
+
+
+
+}
+.container article .top  button{
+    padding: 0px 30px;
+    background-color: aquamarine;
+}
+
+.container article .mid{
+
+
+    width:100%;
+    height:90vh;
+    background-color: rgb(131, 208, 183);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+}
+.container article .mid .services{
+
+    height:170px;
+    width:350px;
+    background-color: aliceblue;
+    text-align: center;
+    font-style: italic;
+    line-height: 170px;
+   
+}
+
+.container article .fot{
+
+
+    width:100%;
+    height:4vh;
+    background-color: rgb(3, 4, 4);
+   
+}
+.container article .fot h4{
+color: aliceblue;
+
+    text-align:center;
+}
